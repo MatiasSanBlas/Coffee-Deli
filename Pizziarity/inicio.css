@@ -1,0 +1,315 @@
+
+.fondoBody{
+    margin: 0px;
+    width: 100%;
+}
+
+.fondoH{
+    
+    background: url(imagenes/fondoP.jpg);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-size:cover;
+    margin: 0px;
+    width: 100%;
+    height: 1280px;
+}
+.fondoNav{
+    position:top;
+    height: 107px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    opacity: 80%;
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;
+
+}
+
+.icono{
+    background: url(Iconos/pizza\ icon.png);
+    background-position: top,left;
+    background-size: cover;
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 15px;
+    top: 18px;
+
+    
+   
+}
+
+.Fmenu1{
+    background-color: #FB1A1A;
+    position: absolute;
+    width: 247px;
+    height: 65px;
+    left: calc(50% - 247px/2 - 131.5px);
+    top: 25px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32.5px;
+    
+
+}
+.boton1{
+    color: black;
+    font-family: 'Glory', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    line-height: 45px;
+    border: 1px black;
+    width: 234px;
+    height: 24px;
+    top: 10px;
+    left: 27px;
+    text-decoration: none;
+    
+}
+
+.Fmenu2{
+    background-color: #F37705;
+    position: absolute;
+    width: 174px;
+    height: 65px;
+    top: 25px;
+    left: calc(50% - 174px/2 + 97px);
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32.5px;
+}
+
+.boton2{
+    color: black;
+    font-family: 'Glory', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    line-height: 45px;
+    border: 1px black;
+    width: 234px;
+    height: 24px;
+    top: 10px;
+    left: 40px;
+    text-decoration: none;
+   
+
+}
+
+.titulo1{
+    color: #FF0202;
+    position: absolute;
+    font-family: 'Glory', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: 3px solid black;
+    width: 374px;
+    height: 122px;
+    left: calc(50% - 374px/2 - 19px);
+    top: 340px;
+    -webkit-text-stroke: 3px black;
+    
+}
+
+.titulo2{
+    color: #FEA800;
+    font-family: 'Glory';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    position: absolute;
+    width: 166px;
+    height: 27px;
+    left: calc(50% - 166px/2 - 8px);
+    top: 440px;
+    -webkit-text-stroke: 0.5px black
+}
+
+.seccion{
+    width: 100%;
+    height: 500px;
+    
+
+}
+
+.ola{
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    background: white;
+    top: 1280px;
+    
+   
+    
+}
+
+.nosotros{
+    font-family: 'Glegoo', serif;
+    font-size: 60px;
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 590px;
+    height: 91px;
+    left: 685px;
+    top: 15px;
+}
+
+.local{
+    border-radius: 90px;
+    position: absolute;
+    width: 1113px;
+    height: 500px;
+    left: calc(50% - 1113px/2 + 0.5px);
+    top: 300px;
+}
+
+.waveP{
+     stroke: #ffe19b; 
+     fill: #FFE19B;
+     
+}
+.wave{
+   height: 100%;
+    width: 100%;
+   
+}
+.waveD{
+    height: 1000px;
+    width: 100%; 
+    overflow: hidden; 
+    transform: rotate(-180deg);
+    
+}
+
+.subtituloSection{
+    font-family: 'Khand', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    position: absolute;
+    width: 927px;
+    height: 312px;
+    left: 530px;
+    bottom: 450px;
+    font-size: 25px;
+}
+
+.parrafo{
+    font-family: 'Khand', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    position: absolute;
+    text-align: center;
+    width: 927px;
+    height: 312px;
+    font-size: 25px;
+    left: 500px;
+    top: 870px;
+
+
+}
+
+
+.seccion2{
+    color: black;
+    width: 89%;
+    height: 700px;
+    display: flex;
+    left: 200px;
+    position:absolute;
+}
+
+.pizzaconamigos{
+    width: 700px;
+    height: 450px;
+    display: flex;
+   position:sticky;
+   margin-right: 100px;
+}
+
+.pizzaenlacama{
+    width: 700px;
+    height: 450px;
+    display: flex;
+    position: relative;
+}
+
+.imagenesPizza{
+    display: flex;
+    position:relative;
+    list-style: none;
+}
+
+.seccionB{
+    width: 100%;
+    height: 1900px;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background: rgba(251, 26, 26, 0.81);
+    border-radius:100px 100px 0px 0px; ;
+   
+}
+.sectionB2{
+    width: 100%;
+    height: 500px;
+   
+}
+
+.contactanos{
+    font-family: 'Glory', sans-serif;
+    font-size: 45px;
+    line-height: 34px;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    left: 110px;
+    top: 2875px;
+}
+
+.redes{
+    position: absolute;
+    left: 20px;
+    top: 2970px;
+    list-style: none;
+    width: auto;
+    
+}
+
+.iconosRedes{
+    width: 35px;
+}
+
+.formas{
+    display: flex;
+
+}
+.circulo{
+ 
+    left: 1700px;
+    top: 20px;
+    position: relative;
+    width: 130px;
+    height: auto;
+
+}
+
+.tamañociruclo{
+    width: 130px;
+}
+
+.flecha{
+    bottom: 118px;
+    position: relative;
+    left: 18px;
+    width: 100px;
+}
